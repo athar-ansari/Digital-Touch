@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const certificates = [
     {
 
-        title: "Airtel Business Correspondent Certificate",
+        title: "Airtel Business Correspondent ",
         img: "DIGITAL_TOUCH_BUSINESS_CERTIFICATE.jpeg",
     },
     {
@@ -38,7 +38,7 @@ export default function Certificates() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: index * 0.2 }}
                     >
-                        <h3 className="md:text-xl text-base  font-semibold text-gray-800 mb-4">{cert.title}</h3>
+                        <h3 className="md:text-xl text-[16px]    font-semibold text-gray-800 mb-4">{cert.title}</h3>
                         <button
                             onClick={() => setSelected(cert)}
                             className="pp-f font-semibold italic bg-[#39C05B] text-white cursor-pointer px-4 py-2 rounded hover:bg-[#3ede66] transition  "
