@@ -68,7 +68,7 @@ const HeroSection = () => {
           <AnimatePresence mode="wait">
             <motion.h1
               key={slides[currentSlide].title}
-              className="ha-f text-4xl md:text-5xl font-extrabold mb-6 leading-tight  "
+              className="ha-f text-3xl md:text-5xl font-extrabold mb-6 leading-tight  "
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -30 }}
@@ -78,7 +78,7 @@ const HeroSection = () => {
             </motion.h1>
           </AnimatePresence>
           <motion.p
-            className="text-[16px] mb-8 pp-f text-[#fff]  leading-relaxed italic"
+            className="md:text-[16px] text-[13px] mb-8 pp-f text-[#fff]  leading-relaxed italic"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
