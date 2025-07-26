@@ -21,9 +21,9 @@ const Navbar = () => {
             <img
               src={"LOGO.png"}
               alt="logo"
-              className="w-12 h-12 object-contain transition-all duration-300  "
+              className="w-8 h-8 md:w-12 md:h-12 object-contain transition-all duration-300"
             />
-            <span className="ha-f text-2xl font-bold italic ">
+            <span className="ha-f text-lg md:text-2xl font-bold italic ">
               <span className="text-[#39C05B] font-bold">Digital</span>{" "}
               <span className="   font-bold">Touch </span>
             </span>
@@ -31,7 +31,7 @@ const Navbar = () => {
         </div>
         <a
           href="#service"
-          className="pp-f italic button h-10 w-24 bg-[#39C05B] flex items-center justify-center rounded-3xl cursor-pointer font-bold"
+          className="pp-f italic button h-8 w-20 md:h-10 md:w-24 bg-[#39C05B] flex items-center justify-center rounded-3xl cursor-pointer font-bold text-sm md:text-base"
         >
           Services
         </a>
