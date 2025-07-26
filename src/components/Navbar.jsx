@@ -14,7 +14,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`${isScrolled ? 'bg-white text-gray-800 shadow-lg' : 'bg-[#061026] text-white'} py-3 sticky top-0 z-[100] transition-all duration-300`} >
+    <nav className={`${isScrolled ? 'bg-white text-gray-800 shadow-lg' : 'bg-[#061026] text-white'} py-3 sticky top-0 z-95 transition-all duration-300`} >
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <a href="/" className="flex items-center space-x-2">

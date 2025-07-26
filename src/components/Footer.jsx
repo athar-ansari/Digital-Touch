@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#001021] pt-16 pb-8 ">
+    <footer id="contact" className="bg-[#001021] pt-16 pb-8 ">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between mb-12">
           <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
@@ -16,7 +16,7 @@ const Footer = () => {
                   Burnpur - 713325
                 </span>
               </p>
-             
+
             </div>
           </div>
 

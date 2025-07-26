@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { FiArrowDown } from "react-icons/fi";
 
 const slides = [
   {
@@ -42,7 +43,7 @@ const HeroSection = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
 
   return (
-    <section className="relative text-white overflow-hidden flex items-center bg-[url('/bannerBg.png')] bg-cover bg-no-repeat bg-right  h-[600px] z-99">
+    <section className="relative text-white overflow-hidden flex items-center bg-[url('/bannerBg.png')] bg-cover bg-no-repeat bg-right  h-[600px] z-90">
       {/* Animated Image Side */}
       <div className="hidden md:flex absolute right-0 top-0 bottom-0 w-1/3 items-center justify-center z-0 h-[400px]">
         <AnimatePresence mode="wait">
@@ -86,6 +87,30 @@ const HeroSection = () => {
           </motion.p>
         </div>
       </div>
+
+      {/* Scroll Down Indicator */}
+      <motion.div
+        className="absolute bottom-[9rem] left-1/2 transform -translate-x-1/2 text-center z-[100]"
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 1.5,
+          duration: 0.6,
+          repeat: Infinity,
+          repeatType: "reverse",
+        }}
+      >
+        <a
+          href="#contact"
+          className="flex flex-col items-center"
+          aria-label="Scroll down"
+        >
+          <span className="text-sm font-medium mb-2 bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+            Scroll Down
+          </span>
+          <FiArrowDown className="text-cyan-400" size={28} />
+        </a>
+      </motion.div>
     </section>
   );
 };

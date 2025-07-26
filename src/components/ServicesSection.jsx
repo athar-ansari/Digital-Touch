@@ -51,23 +51,21 @@ const ServicesSection = () => {
       iconHover: "money-transfer2.png",
       title: "Money Transfer",
       description:
-        "With our Domestic Money Transfer services, any customer can transfer money across Pan India through our expansive retailer network.",
-    },
+        "Send money instantly to any bank account across India using our secure and trusted platform. Even without a bank account, customers can deposit cash and transfer funds quickly. Visit for fast, reliable, and affordable money transfer service!."},
     {
       id: 2,
       icon: "aadhar-banking.png",
       iconHover: "aadhaar-banking2.png",
       title: "Aadhaar Banking",
       description:
-        "Our Aadhaar banking services - Cash Withdrawal, Balance Enquiry, Aadhaar Pay, Mini Statement, and Cash Deposit - have made basic banking more accessible for all.",
-    },
+        "Withdraw cash securely using your Aadhaar number and fingerprint – no ATM card needed! Maximum ₹10,000 per transaction available instantly at Digital Touch. Fast, easy, and hassle-free banking for all bank customers!."   },
     {
       id: 3,
       icon: "min-atm.png",
       iconHover: "mini-atm2.png",
       title: "Mini ATM",
       description:
-        "Now merchants can set up Micro-ATMs and carry out bank transactions such as making balance inquiries, cash withdrawals and obtaining a mini-statement for their customers.",
+        "Withdraw cash using any bank's debit card or Aadhaar at our Digital Touch Cyber Cafe. Check balance, withdraw up to ₹10,000 , and enjoy secure transactions instantly!.",
     },
     {
       id: 4,
@@ -83,32 +81,28 @@ const ServicesSection = () => {
       iconHover: "utility-payment2.png",
       title: "Utility Payments",
       description:
-        "We provide services such as mobile recharges and Bill Payments to fulfil walk-in customers' most basic and recurring payment needs via assisted model.",
-    },
+       "We provide services such as mobile/DTH/Wi-Fi recharges and Electricity Bill Payments to fulfil walk-in customers' most basic and recurring payment needs via assisted model."   },
     {
       id: 6,
       icon: "travel.png",
       iconHover: "travel2.png",
       title: "Travel Services",
       description:
-        "We are the principal agent of IRCTC and also provide discounted prices on Air Travel and are planning to offer complete travel packages very soon.",
-    },
+        "Book AC & Non-AC train tickets easily with confirmed PNR at Digital Touch Cyber Cafe – your trusted IRCTC Retail Service Provider. Fast, reliable service with all classes available – sleeper to 1st AC. Visit now for hassle-free travel!." },
     {
       id: 7,
       icon: "pan-card1.png",
       iconHover: "pan-card2.png",
       title: "PAN Card",
       description:
-        "With the help of RNFI's PAN card application services in association with Protean eGov Technologies, an individual can obtain a new PAN card and can also rectify their PAN card details.",
-    },
+        "Apply for a new PAN card or make corrections to your existing PAN, including name, date of birth, address, or father’s name. We provide complete assistance with document submission and error-free processing. Visit Digital Touch – your trusted service center for fast and reliable PAN services!." },
     {
       id: 8,
       icon: "exam-form.png",
       iconHover: "exam-form1.png",
       title: "Exam Form Fillup ",
       description:
-        "Exam Form Fillup : Goverment Job Exams SSC, UPSC, Railway, University Exams IGNOU, Private & Regualar Board Exams, Entrance Exams, and other competitive exams can be filled up.",
-    },
+       "Get complete support for Kazi Nazrul University (KNU) UG Admissions – BA, B.Com, B.Sc. We also help with exam form fill-up to ensure error-free and timely submission. Visit Digital Touch – Rahmat Nagar for expert guidance and hassle-free admission services!." },
   ];
 
   return (
