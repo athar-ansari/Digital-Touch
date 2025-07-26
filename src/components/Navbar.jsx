@@ -30,7 +30,7 @@ const Navbar = () => {
           </a>
         </div>
         <a
-          href="/"
+          href="#service"
           className="pp-f italic button h-10 w-24 bg-[#39C05B] flex items-center justify-center rounded-3xl cursor-pointer font-bold"
         >
           Services

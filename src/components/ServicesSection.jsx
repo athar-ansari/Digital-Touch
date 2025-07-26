@@ -112,7 +112,7 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="bg-[#FFFFFF] mb-10 -mt-14">
+    <section id="service" className="bg-[#FFFFFF] mb-10 -mt-14">
       <div className="container mx-auto px-4">
         <div className="  px-6  mb-10">
           <div className="  mb-2">
