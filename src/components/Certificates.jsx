@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 const certificates = [
     {
 
-        title: "Airtel Banking Point Certificate",
+        title: "Airtel Business Correspondent Certificate",
         img: "DIGITAL_TOUCH_BUSINESS_CERTIFICATE.jpeg",
     },
     {
