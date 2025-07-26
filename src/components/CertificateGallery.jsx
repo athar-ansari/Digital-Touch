@@ -23,7 +23,7 @@ const certificates = [
 export default function AnimatedCertificates() {
   return (
     <section className="bg-gradient-to-br from-blue-50 to-white py-16 px-8 md:px-32">
-      <h2 className="  font-bold text-start    mb-12 ha-f text-3xl md:text-4xl   italic   ">
+      <h2 className="  font-bold text-start    mb-12 ha-f text-2xl md:text-4xl     italic   ">
         Official Certificates
       </h2>
 
@@ -44,7 +44,7 @@ export default function AnimatedCertificates() {
               />
             </div>
             <div className="p-4 bg-blue-50">
-              <h3 className="text-lg font-semibold   flex items-center gap-2">
+              <h3 className="text-sm md:text-lg font-semibold   flex items-center gap-2">
                 <FaCertificate className="text-yellow-500" />
                 {cert.title}
               </h3>
