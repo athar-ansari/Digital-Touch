@@ -16,21 +16,7 @@ const Footer = () => {
                   Burnpur - 713325
                 </span>
               </p>
-              <p className="pp-f flex items-center italic">
-                <i className="fas fa-phone text-[#4aadc4] mr-3"></i>
-                <a href="tel:8759243934" className="hover:text-[#4aadc4]">
-                  8759243934
-                </a>
-              </p>
-              <p className="pp-f flex items-center italic">
-                <i className="fas fa-envelope text-[#4aadc4] mr-3"></i>
-                <a
-                  href="mailto:care.digitaltouch@gmail.com"
-                  className="hover:text-[#4aadc4]"
-                >
-                  care.digitaltouch@gmail.com
-                </a>
-              </p>
+             
             </div>
           </div>
 
