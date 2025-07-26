@@ -116,7 +116,7 @@ const ServicesSection = () => {
       <div className="container mx-auto px-4">
         <div className="  px-6  mb-10">
           <div className="  mb-2">
-            <span className="pp-f italic h-10 w-36 bg-[#E7F4FE] text-[#4aadc4] flex items-center justify-center rounded-3xl   text-sm font-bold">
+            <span className="pp-f italic h-8 md:h-10 w-28 md:w-36 bg-[#E7F4FE] text-[#4aadc4] flex items-center justify-center rounded-3xl   text-[10px] md:text-[13px] font-bold">
               {" "}
               What you can get
             </span>
@@ -124,7 +124,7 @@ const ServicesSection = () => {
           <h2 className="ha-f text-3xl md:text-4xl font-bold italic  mb-4">
             Our Services
           </h2>
-          <p className="pp-f text-[#4b5c6a] max-w-3xl font-nunito  italic">
+          <p className="pp-f text-[#4b5c6a] max-w-3xl font-nunito italic text-base text-[13px] md:text-[16px]">
             With help of our innovative and hardworking team, we have created a
             pool of distinguished payment products and services with multiple
             Partnered Banks & Clients.
