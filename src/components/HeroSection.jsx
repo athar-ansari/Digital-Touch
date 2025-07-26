@@ -42,7 +42,7 @@ const HeroSection = () => {
     setCurrentSlide((prev) => (prev + 1) % slides.length);
 
   return (
-    <section className="relative text-white overflow-hidden flex items-center bg-[url('/bannerBg.png')] bg-cover bg-no-repeat bg-center h-[600px] z-99">
+    <section className="relative text-white overflow-hidden flex items-center bg-[url('/bannerBg.png')] bg-cover bg-no-repeat bg-right  h-[600px] z-99">
       {/* Animated Image Side */}
       <div className="hidden md:flex absolute right-0 top-0 bottom-0 w-1/3 items-center justify-center z-0 h-[400px]">
         <AnimatePresence mode="wait">
